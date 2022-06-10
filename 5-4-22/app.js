@@ -21,5 +21,5 @@ function countSheeps(arrayOfSheep) {
       }
       
       return counter //return findings
-  }
+  }    
   

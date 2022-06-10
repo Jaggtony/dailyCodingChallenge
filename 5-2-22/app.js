@@ -15,4 +15,4 @@ function fakeBin(x){
   function fakeBin(x) {
     return x.split('').map(n => n < 5 ? 0 : 1).join('');
 } //set up return, split the string to an array, map through the array to see if the element is less than 5,  
-//if yes then its 0 else its 1, lastly use join to bring back together the string
+//if yes then its 0 else its 1, lastly use join to bring back together the string  
