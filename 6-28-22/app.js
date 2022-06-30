@@ -23,7 +23,7 @@ e:Baby smell
 
 */
 function pooRoulette(p) {
-    return  /~,~,~,B|B,~,~,~/.test(p) ? 'You disgust me!' :
-            /~(.+)~\1~\1B/.test(p) ? 'Get the wipes!' : 
-            'Calm before the storm';
+    return  /~,~,~,B|B,~,~,~/.test(p) ? 'You disgust me!' : // set to test if evrything is in the arrays
+            /~(.+)~\1~\1B/.test(p) ? 'Get the wipes!' : //setting to see if everything is in the same index
+            'Calm before the storm'; //default if neighter
   }
