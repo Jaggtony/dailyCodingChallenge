@@ -1,1 +1,2 @@
-# dailycodewars
+# dailycoding challenge
+
