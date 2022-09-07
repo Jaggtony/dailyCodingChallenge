@@ -16,5 +16,5 @@ r:return the array as 1 string with appropriate spaces
 e:['hello', 'world', 'this', 'is', 'great']  =>  'hello world this is great'
 */
 function smash (words) {
-    return words.join(' ') //use join method to bring array together to a string and have a space in the parenthesis so theres apaces in the string
+    return words.join(' ') //use join method to bring array together to a string and have a space in the parenthesis so theres paces in the string
  };
