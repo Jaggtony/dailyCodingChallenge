@@ -14,4 +14,4 @@ function smallEnough(a, limit){
     if(limit>=ord[0]){ // set condition to return true if the limit number is greater or equal to the largest number in the array
       return true
     }else{return false} //condition for everything else
-   }  
+   }     
