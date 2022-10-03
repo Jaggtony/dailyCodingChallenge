@@ -15,5 +15,5 @@ function isIsogram(str){
       for(j = i + 1; j < str.length; ++j) //loop each element on the array
         if(str[i] === str[j]) //if any of the elements match return false
           return false;
-    return true;
+    return true; //otherwise return true
   }
