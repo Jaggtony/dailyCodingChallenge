@@ -9,4 +9,4 @@ function getAverage(arr){
     
 
 }*/
-const getAverage = arr => Math.floor( let sum = arr.reduce((a, b)=>a+b) /arr.length)
+const getAverage = arr => Math.floor( arr.reduce((a, b)=>a+b) /arr.length)
