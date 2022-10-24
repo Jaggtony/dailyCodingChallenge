@@ -10,3 +10,4 @@ const repeats =(arr) => arr.filter(n=> arr.indexOf(n) === arr.lastIndexOf(n)).re
     // filter array to all single values->  reduce
     //index of num is last index of num
      
+//hunter.io
