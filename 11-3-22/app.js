@@ -10,8 +10,8 @@ last('take me to semynak'), ['take', 'me', 'semynak', 'to']
 
 */
 
-function arrWords (){
+function arrWords (x){
     //split sort
     //sort --> 
-    return XMLDocument.split(' ').sort((a, b) => a.charCodeAt(a.length - 1)-b.charCodeAt(b.length - 1))
+    return x.split(' ').sort((a, b) => a.charCodeAt(a.length - 1)-b.charCodeAt(b.length - 1))
 }
