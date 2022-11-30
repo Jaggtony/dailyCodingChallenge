@@ -11,3 +11,13 @@ Notes: There is no need for string validation and every sentence given will cont
 Examples
 "John Doe hs seven red pples under his bsket"          =>  0  ; missing: "a"
 "Bb Smith sent us six neatly arranged range bicycles"  =>  3  ; missing: "o"
+*/
+function missingVowel(str){
+    //list all vowels -> loop through each vowel and see if str
+    let vowels = 'aeiou'
+    for(let i = 0; i< vowels.length, i++){
+        if (str.indexOf(vowels[i] )=== -1){
+            return i
+        }
+    } 
+}
