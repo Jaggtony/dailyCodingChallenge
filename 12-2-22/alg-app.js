@@ -8,7 +8,7 @@ function reverseString(str){
     //jagg-> ggaj 
     let reverseStr = ''
     for(let char of str){
-        reverseStr==char=reverseStr
+        reverseStr+=char=reverseStr
     }
     return reverseStr
 }
